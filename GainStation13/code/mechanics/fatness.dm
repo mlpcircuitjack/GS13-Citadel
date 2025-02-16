@@ -274,6 +274,10 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 	return needed_fatness
 
 /mob/living/carbon/proc/applyFatnessDamage(amount)
+	if(!client?.prefs?.weight_gain_weapons) // If we can't fatten them through weapons, apply stamina damage
+		adjustStaminaLoss(amount)
+		return TRUE
+
 	var/fat_to_add = ((amount * CONFIG_GET(number/damage_multiplier)) * FAT_DAMAGE_TO_FATNESS)
 	adjust_fatness(fat_to_add, FATTENING_TYPE_WEAPON)
 	return fat_to_add
