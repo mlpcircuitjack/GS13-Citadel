@@ -3837,7 +3837,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		var/language_entry = GLOB.roundstart_languages[additional_language]
 		if(language_entry)
 			character.additional_language = language_entry
-			character.grant_language(language_entry, TRUE, TRUE)
+			character.grant_language(language_entry)
 
 	character.set_bark(bark_id)
 	character.vocal_speed = bark_speed
