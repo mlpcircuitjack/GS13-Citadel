@@ -413,9 +413,8 @@
 	//END OF CIT CHANGES
 
 	//GS13 Port - adds arousal and stamina to hud
-	arousal = new /atom/movable/screen/arousal()
+	arousal = new /atom/movable/screen/arousal(null, src)
 	arousal.icon_state = (owner.canbearoused == 1 ? "arousal0" : "")
-	arousal.hud = src
 	infodisplay += arousal
 
 	healthdoll = new /atom/movable/screen/healthdoll(null, src)
