@@ -4105,6 +4105,7 @@
 #include "GainStation13\code\obj\weapons\alter_rays.dm"
 #include "GainStation13\code\obj\weapons\fatbeam.dm"
 #include "GainStation13\code\obj\weapons\fatoray.dm"
+#include "GainStation13\code\obj\weapons\fattening_batons.dm"
 #include "GainStation13\code\obj\weapons\feeder_ebow.dm"
 #include "GainStation13\code\structures\chair.dm"
 #include "GainStation13\code\structures\trapped_items.dm"
