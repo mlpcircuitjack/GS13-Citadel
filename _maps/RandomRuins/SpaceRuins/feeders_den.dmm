@@ -17,19 +17,19 @@
 "cw" = (/obj/machinery/light{dir = 8},/turf/open/floor/wood,/area/ruin/space/has_grav/feedersden)
 "cx" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 8},/obj/structure/cable{icon_state = "2-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "cy" = (/obj/structure/table/reinforced,/obj/item/reagent_containers/food/snacks/store/cake/chocolate,/obj/machinery/light/small{dir = 1},/turf/open/floor/mineral/basaltstone_floor,/area/ruin/space/has_grav/feedersden)
-"cR" = (/obj/machinery/door/airlock/abductor,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
-"cV" = (/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
+"cR" = (/obj/effect/turf_decal{dir = 4},/obj/structure/fans/tiny,/obj/machinery/door/airlock/hatch{name = "airlock"; req_access_txt = "150"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "cW" = (/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc{name = "Base Power Controller"; pixel_x = -28},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "dd" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{dir = 8; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/structure/disposalpipe/segment,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "de" = (/obj/structure/sign/poster/contraband/donut_corp{pixel_y = 32},/turf/open/floor/carpet/black,/area/ruin/space/has_grav/feedersden)
 "dl" = (/obj/structure/rack/shelf,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/metal/fifty,/obj/item/stack/sheet/mineral/titanium/fifty{pixel_x = -4; pixel_y = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "dr" = (/obj/machinery/door/airlock/external,/obj/effect/turf_decal{dir = 8},/obj/effect/turf_decal{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "dv" = (/obj/machinery/chem_dispenser/mutagensaltpeter,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
-"dz" = (/obj/structure/rack,/obj/item/mop/advanced,/obj/item/storage/bag/trash,/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown,/obj/item/storage/box/lights/mixed,/obj/structure/window/reinforced/tinted{dir = 4},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
+"dz" = (/obj/structure/rack,/obj/item/mop/advanced,/obj/item/storage/bag/trash,/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown,/obj/item/storage/box/lights/mixed,/obj/structure/window/reinforced/tinted{dir = 4},/obj/effect/turf_decal/tile/brown{dir = 4},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "dA" = (/obj/structure/toilet{dir = 8},/obj/machinery/light/small{dir = 4; light_color = "#d8b1b1"},/turf/open/floor/plasteel/freezer,/area/ruin/space/has_grav/feedersden)
 "dC" = (/obj/machinery/deepfryer,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "dG" = (/obj/structure/flora/ausbushes/grassybush,/turf/open/floor/plating/asteroid,/area/ruin/space/has_grav/feedersden)
 "dH" = (/obj/machinery/door/airlock/public/glass{name = "Cell 2"; id_tag = "feederden_cell2"},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
+"dL" = (/obj/structure/lattice,/turf/closed/mineral/random,/area/ruin/space/has_grav/feedersden)
 "eb" = (/obj/structure/lattice,/turf/template_noop,/area/ruin/unpowered/no_grav)
 "ef" = (/obj/structure/table/wood,/obj/item/storage/pill_bottle/breast_enlargement{pixel_y = 5; pixel_x = -5},/turf/open/floor/wood,/area/ruin/space/has_grav/feedersden)
 "eg" = (/obj/structure/reagent_dispensers/keg/lipoifier,/turf/open/floor/wood,/area/ruin/space/has_grav/feedersden)
@@ -50,7 +50,7 @@
 "fS" = (/obj/structure/table/wood,/obj/machinery/chem_dispenser/drinks/beer/fullupgrade{dir = 1},/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/feedersden)
 "ga" = (/obj/item/trash/boritos,/obj/structure/sign/poster/contraband/donut_corp{pixel_y = 32},/turf/open/floor/carpet/black,/area/ruin/space/has_grav/feedersden)
 "gi" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 24},/turf/open/floor/plasteel/freezer,/area/ruin/space/has_grav/feedersden)
-"gk" = (/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 4},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
+"gk" = (/obj/effect/turf_decal,/turf/open/floor/mineral/plastitanium/red,/area/ruin/space/has_grav/feedersden)
 "gn" = (/obj/item/trash/can,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"},/obj/effect/turf_decal/stripes{icon_state = "steel_grid"; dir = 5},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "gq" = (/obj/vehicle/ridden/wheelchair,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "gu" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals_central6"},/obj/effect/turf_decal/stripes/white/line{dir = 4; icon_state = "steel_decals3"},/obj/effect/turf_decal/stripes/white/line{dir = 2; icon_state = "steel_decals3"},/obj/effect/turf_decal/stripes/white/line{dir = 5; icon_state = "steel_decals3"},/obj/effect/turf_decal/stripes/white/line{dir = 6; icon_state = "steel_decals3"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
@@ -63,7 +63,8 @@
 "hl" = (/obj/item/storage/toolbox/syndicate,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "hT" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "ie" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/machinery/seed_extractor,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
-"ik" = (/obj/structure/ore_box,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
+"ik" = (/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/obj/machinery/computer/shuttle/syndicate{name = "shuttle terminal"; dir = 4; shuttleId = "feeder_ship"; possible_destinations = "feeder_home;whiteship_home;feeder_custom"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
+"iu" = (/obj/structure/curtain,/obj/effect/turf_decal/tile{dir = 1},/obj/effect/turf_decal/tile{dir = 4},/turf/open/floor/plasteel/freezer,/area/ruin/space/has_grav/feedersden)
 "iv" = (/obj/structure/chair/sofa/corner,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/feedersden)
 "iN" = (/obj/machinery/light{dir = 1},/obj/structure/disposalpipe/segment,/obj/machinery/processor,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "iO" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
@@ -85,7 +86,7 @@
 "lQ" = (/obj/structure/chair/sofa/right,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/feedersden)
 "lR" = (/obj/machinery/iv_drip/feeding_tube,/obj/machinery/light/small{dir = 1},/turf/open/floor/carpet/black,/area/ruin/space/has_grav/feedersden)
 "ma" = (/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
-"mf" = (/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/obj/machinery/quantumpad/supply_only{map_pad_id = "denbase"; map_pad_link_id = "lavalandbase"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
+"mf" = (/obj/structure/ore_box,/obj/effect/turf_decal/tile/brown{dir = 8},/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/effect/turf_decal/tile/brown{dir = 1},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "mm" = (/obj/machinery/vending/mealdor{free = 1},/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "mD" = (/obj/structure/closet/emcloset/anchored,/obj/effect/turf_decal/stripes/white/line{dir = 2},/obj/effect/turf_decal/stripes/white/line{dir = 1; icon_state = "steel_decals_central4"},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "mJ" = (/obj/structure/chair/sofa/corner{dir = 4},/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/feedersden)
@@ -96,7 +97,6 @@
 "nw" = (/obj/machinery/light/small{dir = 1},/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "nA" = (/obj/machinery/atmospherics/pipe/manifold/supply,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"; dir = 1},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "steel_decals9"},/obj/effect/turf_decal/stripes/white/line{dir = 6; icon_state = "steel_decals7"},/obj/effect/turf_decal/stripes/white/line{dir = 9; icon_state = "steel_decals7"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "nE" = (/obj/structure/flora/junglebush,/turf/open/floor/plating/asteroid,/area/ruin/space/has_grav/feedersden)
-"nK" = (/obj/machinery/abductor/feeder_console,/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 9},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
 "nQ" = (/obj/structure/rack,/obj/item/clothing/suit/space/syndicate{pixel_x = -10},/obj/item/clothing/head/helmet/space/syndicate{pixel_x = -10},/obj/item/clothing/mask/gas{pixel_x = -10; pixel_y = 3},/obj/item/clothing/suit/space/syndicate/orange{pixel_x = 8; name = "extra stretchy space suit"},/obj/item/clothing/head/helmet/space/syndicate/orange{pixel_x = 10},/obj/item/clothing/mask/gas{pixel_x = 10; pixel_y = 3},/obj/item/tank/jetpack/carbondioxide/eva,/obj/effect/turf_decal/stripes/white/line{dir = 9},/obj/effect/turf_decal/stripes/white/line{dir = 1; icon_state = "steel_decals_central4"},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "nW" = (/obj/machinery/door/airlock/hatch{name = "airlock"; req_access_txt = "150"},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "oF" = (/obj/structure/chair/office/dark{dir = 8},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
@@ -117,7 +117,7 @@
 "qC" = (/obj/structure/falsewall/plastitanium,/obj/structure/fans/tiny/invisible,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "qD" = (/obj/machinery/computer/security/telescreen/entertainment,/turf/closed/wall/r_wall/syndicate,/area/ruin/space/has_grav/feedersden)
 "qF" = (/obj/structure/lattice,/turf/closed/mineral/random,/area/ruin/unpowered/no_grav)
-"qM" = (/obj/structure/closet/crate/secure/weapon,/obj/item/clothing/glasses/hud/health/night,/obj/item/kitchen/knife/combat,/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown,/obj/item/gun/energy/fatoray,/obj/item/book/granter/spell/fattening,/obj/item/gun/energy/laser/alter_ray/gainrate,/obj/item/cookiesynth,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
+"qM" = (/obj/effect/turf_decal,/obj/effect/turf_decal{dir = 4},/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/mineral/plastitanium/red,/area/ruin/space/has_grav/feedersden)
 "rf" = (/obj/effect/turf_decal/stripes/white/line{dir = 8; icon_state = "steel_decals4"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "ri" = (/obj/machinery/light/small{dir = 1},/obj/machinery/atmospherics/components/unary/tank/air,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "rj" = (/obj/machinery/iv_drip/feeding_tube,/turf/open/floor/mineral/basaltstone_floor,/area/ruin/space/has_grav/feedersden)
@@ -156,14 +156,16 @@
 "uF" = (/obj/structure/table,/obj/machinery/cell_charger,/obj/item/stock_parts/cell/high/plus,/obj/structure/cable{icon_state = "1-2"},/obj/item/gps,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "uO" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 8},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "uX" = (/obj/machinery/computer/security/telescreen/entertainment,/obj/structure/disposalpipe/segment,/turf/closed/wall/r_wall/syndicate,/area/ruin/space/has_grav/feedersden)
+"vf" = (/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "vk" = (/obj/item/trash/candy{pixel_x = 10; pixel_y = -3},/turf/open/floor/wood,/area/ruin/space/has_grav/feedersden)
-"vp" = (/obj/effect/turf_decal/stripes{icon_state = "trim"},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
+"vp" = (/obj/machinery/abductor/feeder_console,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "vt" = (/obj/effect/turf_decal/loading_area{dir = 2; icon_state = "steel_decals9"},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "steel_decals9"},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals9"},/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "steel_decals9"},/obj/effect/turf_decal{dir = 4},/obj/effect/turf_decal{dir = 8},/obj/machinery/door/airlock/hatch{name = "airlock"; req_access_txt = "150"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "vv" = (/obj/structure/table/wood,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/feedersden)
 "vw" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/structure/disposalpipe/segment,/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "vH" = (/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "vL" = (/obj/effect/turf_decal/stripes/white/line{dir = 6; icon_state = "steel_decals1"},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "vY" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
+"wk" = (/obj/effect/turf_decal,/obj/effect/turf_decal{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/ruin/space/has_grav/feedersden)
 "wn" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/obj/structure/rack/shelf,/obj/item/storage/box/beakers/bluespace,/turf/open/floor/mineral/basaltstone_floor,/area/ruin/space/has_grav/feedersden)
 "ww" = (/obj/structure/flora/rock,/turf/open/floor/plating/asteroid/airless,/area/ruin/unpowered/no_grav)
 "wy" = (/obj/machinery/button/door{id = "feederden_cell1"; name = "Cell 1 Control"; normaldoorcontrol = 1; specialfunctions = 4; pixel_y = 32; pixel_x = -8},/obj/machinery/button/door{id = "feederden_cell2"; name = "Cell 2 Control"; normaldoorcontrol = 1; specialfunctions = 4; pixel_y = 32; pixel_x = 8},/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"},/obj/effect/turf_decal/stripes/white/line{dir = 5; icon_state = "steel_decals7"},/obj/effect/turf_decal/stripes/white/line{dir = 10; icon_state = "steel_decals7"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
@@ -179,7 +181,7 @@
 "yb" = (/obj/structure/sign/poster/contraband/eat{pixel_y = 32},/obj/structure/chair/sofachair,/obj/machinery/light/small{dir = 1},/turf/open/floor/mineral/basaltstone_floor,/area/ruin/space/has_grav/feedersden)
 "yg" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 8},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "yk" = (/obj/effect/turf_decal/stripes/white/line{dir = 1; icon_state = "steel_decals_central7"},/obj/effect/turf_decal/stripes/white/line{dir = 2; icon_state = "steel_decals3"},/obj/effect/turf_decal/stripes/white/line{dir = 5; icon_state = "steel_decals3"},/obj/effect/turf_decal/stripes/white/line{dir = 6; icon_state = "steel_decals3"},/obj/effect/turf_decal/stripes/white/line{dir = 4; icon_state = "steel_decals3"},/obj/machinery/light{light_color = "#cee5d2"},/obj/item/storage/bag/plants,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
-"yq" = (/obj/structure/ore_box,/obj/effect/turf_decal/tile/brown,/obj/effect/turf_decal/tile/brown{dir = 8},/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/obj/item/stack/sheet/mineral/calorite,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
+"yq" = (/obj/effect/turf_decal{dir = 1},/obj/effect/turf_decal{dir = 4},/obj/machinery/light{light_color = "#c9d3e8"},/turf/open/floor/mineral/plastitanium/red,/area/ruin/space/has_grav/feedersden)
 "zc" = (/obj/effect/turf_decal/loading_area{icon_state = "steel_decals6"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "zg" = (/obj/machinery/airalarm/syndicate{pixel_y = 32},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "zl" = (/obj/machinery/autolathe/hacked,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
@@ -211,6 +213,7 @@
 "Cu" = (/obj/machinery/door/airlock/hatch{name = "airlock"; req_access_txt = "150"},/obj/effect/turf_decal/stripes/red/line{dir = 4},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "CH" = (/obj/item/reagent_containers/food/snacks/pizzaslice/margherita,/turf/open/floor/mineral/basaltstone_floor,/area/ruin/space/has_grav/feedersden)
 "Dc" = (/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/ruin/space/has_grav/feedersden)
+"Dq" = (/obj/structure/closet/crate/secure/weapon,/obj/item/clothing/glasses/hud/health/night,/obj/item/kitchen/knife/combat,/obj/effect/turf_decal/tile/brown,/obj/item/gun/energy/fatoray,/obj/item/book/granter/spell/fattening,/obj/item/gun/energy/laser/alter_ray/gainrate,/obj/item/cookiesynth,/obj/effect/turf_decal/tile/brown{dir = 4},/obj/structure/window/reinforced/tinted{dir = 4},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "Ds" = (/turf/closed/mineral/random,/area/template_noop)
 "Dx" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "DB" = (/obj/structure/cable,/obj/machinery/power/smes{charge = 5e+006},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
@@ -218,7 +221,6 @@
 "DM" = (/obj/machinery/power/rtg/advanced/fullupgrade,/obj/structure/cable,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "DO" = (/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "DU" = (/obj/machinery/light/small{dir = 1},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
-"Ef" = (/obj/machinery/light{dir = 1},/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 1},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
 "Eh" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "Ek" = (/obj/structure/cable,/obj/machinery/power/rtg/advanced/fullupgrade,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "En" = (/obj/item/reagent_containers/food/snacks/chocolatebar,/turf/open/floor/carpet/black,/area/ruin/space/has_grav/feedersden)
@@ -269,7 +271,6 @@
 "Mi" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "Mq" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"},/obj/effect/turf_decal/stripes/white/line{dir = 5; icon_state = "steel_decals7"},/obj/effect/turf_decal/stripes/white/line{dir = 10; icon_state = "steel_decals7"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "MV" = (/obj/item/trash/boritos,/turf/open/floor/mineral/basaltstone_floor,/area/ruin/space/has_grav/feedersden)
-"MW" = (/obj/machinery/door/poddoor/shutters/old/preopen{id = "feederden_south"},/obj/effect/spawner/structure/window/plastitanium,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "MY" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/snacks/grown/corn,/obj/item/reagent_containers/food/condiment/sugar,/obj/item/reagent_containers/food/condiment/sugar,/obj/item/reagent_containers/food/condiment/sugar,/obj/item/reagent_containers/food/condiment/sugar,/obj/item/reagent_containers/food/snacks/spaghetti,/obj/item/reagent_containers/food/snacks/spaghetti,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "Ng" = (/obj/structure/closet/wardrobe/mixed,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "Nk" = (/obj/effect/turf_decal{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
@@ -281,12 +282,14 @@
 "NB" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"; dir = 1},/obj/effect/turf_decal/stripes{icon_state = "steel_grid"; dir = 10},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals9"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "NJ" = (/obj/structure/curtain,/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "borderfloor"},/turf/open/floor/plasteel/freezer,/area/ruin/space/has_grav/feedersden)
 "NR" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 8},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"; dir = 1},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals9"},/obj/effect/turf_decal/stripes/white/line{dir = 9; icon_state = "steel_decals7"},/obj/effect/turf_decal/stripes/white/line{dir = 6; icon_state = "steel_decals7"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
-"NU" = (/obj/machinery/abductor/pad/feeder,/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 8},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
 "NX" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 8},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/structure/railing,/turf/open/floor/plasteel/stairs/left{dir = 4},/area/ruin/space/has_grav/feedersden)
 "Oc" = (/turf/open/floor/wood{icon_state = "wood-broken"},/area/ruin/space/has_grav/feedersden)
 "Ow" = (/obj/effect/turf_decal/sand/plating,/turf/open/floor/plating/asteroid,/area/ruin/space/has_grav/feedersden)
 "OE" = (/obj/item/trash/can,/obj/effect/mob_spawn/human/feeders_den/victim{dir = 8},/turf/open/floor/carpet/black,/area/ruin/space/has_grav/feedersden)
+"OH" = (/obj/effect/turf_decal{dir = 1},/obj/effect/turf_decal{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/ruin/space/has_grav/feedersden)
 "Pg" = (/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 8},/obj/structure/medkit_cabinet{pixel_y = 27},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
+"Pk" = (/obj/effect/turf_decal{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/ruin/space/has_grav/feedersden)
+"Pv" = (/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "PI" = (/obj/structure/closet/secure_closet/freezer/meat,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/monkey,/obj/item/reagent_containers/food/snacks/meat/slab/spider,/obj/item/reagent_containers/food/snacks/meat/slab/spider,/obj/structure/window/reinforced/tinted{dir = 8},/turf/open/floor/plasteel/freezer,/area/ruin/space/has_grav/feedersden)
 "PL" = (/obj/structure/sign/poster/contraband/eat{pixel_y = 32},/obj/machinery/light/small{dir = 1},/obj/structure/scale,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "PV" = (/obj/item/paper/fluff/ruins/feeder_den/hidden,/turf/open/floor/plating{icon_state = "panelscorched"},/area/ruin/space/has_grav/feedersden)
@@ -294,11 +297,10 @@
 "QK" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/effect/turf_decal/stripes{icon_state = "steel_decals5"},/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "steel_decals9"},/obj/effect/turf_decal/stripes/white/line{dir = 5; icon_state = "steel_decals7"},/obj/effect/turf_decal/stripes/white/line{dir = 10; icon_state = "steel_decals7"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "QW" = (/obj/structure/table/wood,/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
 "Ra" = (/obj/machinery/door/airlock/hatch{name = "airlock"; req_access_txt = "150"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
-"Rc" = (/obj/machinery/computer/camera_advanced/abductor/feeder,/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 10},/obj/item/paper/fluff/ruins/feeder_den/tool_warning,/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
+"Rc" = (/obj/docking_port/stationary{dir = 8; height = 7; name = "Outpost"; width = 7; roundstart_template = /datum/map_template/shuttle/feeder; shuttle_id = "feeder_home"; area_type = /area/ruin/space/has_grav/feedersden; dwidth = 3},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "Rh" = (/obj/structure/table,/obj/machinery/microwave,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
-"Rp" = (/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
-"Rr" = (/obj/structure/table/abductor,/obj/item/abductor/gizmo/feeder,/obj/item/abductor/gizmo/feeder,/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 6},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
-"Ru" = (/obj/machinery/door/poddoor/shutters/old/preopen{id = "feederden_north"},/obj/effect/spawner/structure/window/plastitanium,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
+"Rp" = (/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
+"Ru" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/door/poddoor/shutters/old/preopen{id = "feederden_north"},/obj/effect/turf_decal/tile/red,/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "Rw" = (/obj/machinery/atmospherics/components/unary/outlet_injector/on{dir = 8; piping_layer = 3; pixel_x = 5; pixel_y = 5},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/feedersden)
 "Rz" = (/obj/structure/railing{dir = 1},/turf/open/floor/plasteel/stairs/left{dir = 8},/area/ruin/space/has_grav/feedersden)
 "RC" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 8; piping_layer = 3; pixel_x = 5; pixel_y = 5},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
@@ -324,6 +326,7 @@
 "UJ" = (/obj/structure/cable{icon_state = "2-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "UZ" = (/obj/structure/disposaloutlet{dir = 4},/obj/structure/disposalpipe/trunk{dir = 8},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/feedersden)
 "Ve" = (/obj/structure/flora/junglebush,/turf/open/floor/plating/asteroid/airless,/area/ruin/unpowered/no_grav)
+"Vv" = (/obj/effect/turf_decal/stripes/white/line{dir = 8; icon_state = "steel_decals4"},/obj/machinery/quantumpad/supply_only{map_pad_id = "denbase"; map_pad_link_id = "lavalandbase"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "Vx" = (/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "VF" = (/obj/structure/rack,/obj/effect/spawner/lootdrop/bedsheet,/obj/effect/spawner/lootdrop/bedsheet,/obj/effect/spawner/lootdrop/bedsheet,/obj/effect/spawner/lootdrop/bedsheet,/obj/item/toy/plush/random,/obj/item/toy/plush/random,/obj/item/toy/plush/random,/obj/machinery/light{dir = 4},/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown,/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "VW" = (/obj/effect/turf_decal/stripes/white/line{dir = 1; icon_state = "steel_decals_central4"},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
@@ -332,7 +335,6 @@
 "Wt" = (/obj/structure/lattice/catwalk,/obj/item/stack/marker_beacon{anchored = 1; icon_state = "markerburgundy-on"; light_color = "#FA644B"; light_power = 3; light_range = 2; name = "landing marker"; picked_color = "Burgundy"; pixel_x = 12; pixel_y = -10},/turf/template_noop,/area/ruin/space/has_grav/feedersden)
 "WH" = (/obj/item/trash/plate{pixel_x = -4; pixel_y = 10},/obj/item/trash/plate{pixel_x = -5; pixel_y = -1},/obj/item/trash/plate{pixel_y = 4},/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/feedersden)
 "WJ" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
-"WK" = (/obj/structure/table/abductor,/obj/item/paper/fluff/ruins/feeder_den/tool_warning,/obj/effect/turf_decal/stripes{icon_state = "trim"; dir = 5},/turf/open/floor/plating/abductor,/area/ruin/space/has_grav/feedersden)
 "WN" = (/obj/structure/rack/shelf,/obj/item/reagent_containers/food/snacks/syndicake,/obj/item/reagent_containers/food/snacks/syndicake,/obj/item/reagent_containers/food/snacks/chips,/obj/item/reagent_containers/food/snacks/chips,/obj/item/reagent_containers/food/snacks/cornchips,/obj/item/reagent_containers/food/snacks/cornchips,/obj/item/reagent_containers/food/snacks/candy,/obj/item/reagent_containers/food/snacks/candy,/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown{dir = 1},/turf/open/floor/plasteel,/area/ruin/space/has_grav/feedersden)
 "WZ" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5; piping_layer = 3; pixel_x = 5; pixel_y = 5},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ruin/space/has_grav/feedersden)
 "Xa" = (/obj/structure/table/wood,/obj/item/card/id/syndicate{pixel_y = 14},/obj/item/storage/fancy/cigarettes/cigpack_syndicate{pixel_x = -3},/obj/item/lighter{pixel_x = 4},/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/plasteel/dark,/area/ruin/space/has_grav/feedersden)
@@ -380,20 +382,20 @@ FEebebebqFBrBrnrfMsqelzCnrLMelwnnrSXXFXFwODcwYrWOclQeSiXGFCcoKoKoKNzItgUeZICnrhl
 FEFEFEFEFEBrBrDcnrnrnurkDcgUKHzYDcDcgUdHDcDccwoKoKOcoKoKoKvkrWoKoKNzItDcDcDcDcgUYkzYDcftbxnrnrDcBrBrFEFEFEFEFE
 FEFEFEFEFEBrBrBrnrtZlltPwyLoJWMqLoKofbcdcdzgcdRpRpqiRpRpRpXhRpRpRpjOkKkKRzKoLusabcQKzwgnLTmmnrBrBrFEFEFEFEFEFE
 FEFEFEFEfmBrBrBrnrZnNBLvAjNRgZKWNRAjNXTGTGTGTGBDTGXWZhZhZhqquOuOuOuOuOrJZOWrndWrsNnArBxJLfZnnrqFebebebFEFEFEFE
-FEFEFEfmfmBrBrBrDcDcNJNJDcnrnrnrnrnrnrnrnrnrDcWJiONxgUgUgUuXZpTKDcnrnrQFnrnrnrnrnrnrDcNJNJDcDcBrFEFEFEFEFEFEFE
-FEFEBrZCfmISBrBrBrnrMaEqnrikNggqnrWNYEfncnbanrDxvYFDLNdCsRiNvYSsnrZeIoxCkoPgnrridlkCnrfNginrBrBrBrFEFEFEFEFEFE
+FEFEFEfmfmBrBrBrDcDcNJNJDcnrnrnrnrnrnrnrnrnrDcWJiONxgUgUgUuXZpTKDcnrnrQFnrnrnrnrnrnrDciuiuDcDcBrFEFEFEFEFEFEFE
+FEFEBrZCfmISBrBrBrnrMaEqnrNggqvpnrWNYEfncnbanrDxvYFDLNdCsRiNvYSsnrZeIoxCkoPgnrridlkCnrfNginrBrBrBrFEFEFEFEFEFE
 FEFEBrBrfmfmBrBrBrnrtyEqnrIGJhJhWsDOlsuklslsvtDxvYSyBeaaaaUBvYmUnrcWmaUerscxtVbXJhkMnrfNdAnrBrBrBrFEFEFEFEFEFE
 FEFEFEBrwwfmeEBrBrDcnrnrDcxGHpEHNkDOtHguboygaQoYvYvYvYvYvYvwvYkdnrgFXsFHYpDBnrzlJhXPDcnrnrDcBrBrBrFEFEFEFEFEFE
-FEFEFEBrxZfmfmBrBrBrBrBrDcDcnrnrDcmflsucaEBPnrvYaDMYMdRhDKjhANYUnrnrnrTPJhfKDcnrRanrDcBrEWYNxZBrBrBrFEFEFEFEFE
-FEFEFEFEfmfmBrBrBrBrBrBrnrnKEfWKnrqhlslszcVFDczAnrnrnrMWnrnrnrnrDcmDnQddRCuFnrNtVWdvnrISVefmfmfxBrBrFEFEFEFEFE
-FEFEFEFEFEfmBrBrBrBrBrBrnrNUcVgkcRDOrfrfYhdzPItjfhnroHoHoHdrVxnwAaYAtBTYzGzEHivLMisCkgeEfmFEFEebFEFEFEFEFEFEFE
-FEFEFEFEFEFEBrBrBrBrBrBrnrRcvpRrnrqMyqzJjSTUbWTxsunroHoHoHdrBVBVAaYApeWZlhFmEsieuqrEuyRwfmFEFEebFEFEFEFEFEFEFE
-FEFEFEFEFEFEFEBrBrBrBrBrDcnrnrnrDcnrnrnrnrnrnrnrnrpfgDoHWtpfnrnrnrnrnrnWnrnrDcaMsIaMtIUZFEFEFEebFEFEFEFEFEFEFE
-FEFEFEFEFEFEFEFEBrBrBrBrBrBrBrBrBrBrBrBrBrBrXLBrqFebebebebebqFXLBrBrDcEhDUUJDcaMsIaMDcqFebebqFqFFEFEFEFEFEFEFE
-FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrBrBrBrplVeFEFEFEFEFEFEVeEWVefmDcEkSpDMDcaMykaMDcDsFEFEBrBrFEFEFEFEFEFEFE
-FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrISfmFEFEFEFEFEFEfmISZCISDcDcDcDcDcDcDcDcDcDsFEFEFEFEFEFEFEFEFEFEFE
-FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrFEFEFEFEFEFEFEBrfmfmwwxZfmfmfmBrBrqFqFDsDsFEFEFEFEFEFEFEFEFEFEFE
-FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrVefmfmfmfmeEfmKuqFqFKuFEFEFEFEFEFEFEFEFEFEFEFE
+FEFEFEBrxZfmfmBrDcDcDcDcDcDcnrnrDcDOlsucaEBPnrvYaDMYMdRhDKjhANYUnrnrnrTPJhfKDcnrRanrDcBrEWYNxZBrBrBrFEFEFEFEFE
+FEFEFEFEfmfmBrBrDcgkgkqMJhJhJhwknrqhlslszcVFDczAnrnrnrkgnrnrnrnrDcmDnQddRCuFnrNtVWdvnrISVefmfmfxBrBrFEFEFEFEFE
+FEFEFEFEFEfmBrBrDcJhJhJhJhJhJhJhnrmfrfVvYhdzPItjfhnroHoHoHdrVxnwAaYAtBTYzGzEHivLMisCkgeEfmFEFEebFEFEFEFEFEFEFE
+FEFEFEFEFEFEBrBrDcJhJhJhJhJhJhJhnrikrfrfYhDqbWTxsunroHoHoHdrBVBVAaYApeWZlhFmEsieuqrEuyRwfmFEFEebFEFEFEFEFEFEFE
+FEFEFEFEFEFEBrBrDcJhJhJhJhJhJhRccRvfPvzJjSTUnrnrnrpfgDoHWtpfnrnrnrnrnrnWnrnrDcaMsIaMtIUZFEFEFEebFEFEFEFEFEFEFE
+FEFEFEFEFEFEBrBrDcJhJhJhJhJhJhJhDcnrnrnrnrnrnrXLdLebebebebebqFXLBrBrDcEhDUUJDcaMsIaMDcqFebebqFqFFEFEFEFEFEFEFE
+FEFEFEFEFEFEBrBrDcJhJhJhJhJhJhJhDcXLXLXLXLXLXLBrplVeFEFEFEFEVeEWVefmDcEkSpDMDcaMykaMDcDsFEFEBrBrFEFEFEFEFEFEFE
+FEFEFEFEFEFEBrBrDcPkPkyqJhJhJhOHDcBrBrBrBrBrBrBrISfmFEFEFEFEfmISZCISDcDcDcDcDcDcDcDcDcDsFEFEFEFEFEFEFEFEFEFEFE
+FEFEFEFEFEFEBrBrDcDcDcDcDcDcDcDcDcBrBrFEFEBrBrFEFEFEFEFEFEFEBrfmfmwwxZfmfmfmBrBrqFqFDsDsFEFEFEFEFEFEFEFEFEFEFE
+FEFEFEFEFEFEFEBrBrBrBrBrBrBrBrBrBrBrBrFEFEFEFEFEFEFEFEFEFEFEBrBrVefmfmfmfmeEfmKuqFqFKuFEFEFEFEFEFEFEFEFEFEFEFE
 FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrBrBrZCZCfmFEFEFEebebFEFEFEFEFEFEFEFEFEFEFEFEFE
 FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrBrBrBrFEFEFEFEFEebFEFEFEFEFEFEFEFEFEFEFEFEFE
 FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEBrBrBrBrFEFEFEFEFEebFEFEFEFEFEFEFEFEFEFEFEFEFE
