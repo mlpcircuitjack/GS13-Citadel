@@ -4,6 +4,10 @@
 	dir = 8
 	},
 /obj/structure/closet/emcloset/anchored,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/feeder_shuttle)
 "g" = (
@@ -44,6 +48,7 @@
 /area/shuttle/feeder_shuttle)
 "p" = (
 /obj/structure/chair/comfy/shuttle,
+/obj/machinery/door/window/survival_pod,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/feeder_shuttle)
 "r" = (
@@ -51,10 +56,19 @@
 	dir = 4;
 	light_color = "#c1caff"
 	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/structure/medkit_cabinet{
+	pixel_x = 24
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/feeder_shuttle)
 "y" = (
 /obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/machinery/door/window/survival_pod{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
@@ -67,6 +81,7 @@
 /area/shuttle/feeder_shuttle)
 "C" = (
 /obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/feeder_shuttle)
 "D" = (
@@ -80,7 +95,16 @@
 /turf/open/floor/plating,
 /area/shuttle/feeder_shuttle)
 "F" = (
-/obj/machinery/door/window/survival_pod,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/feeder_shuttle)
 "G" = (
@@ -135,6 +159,9 @@
 	shuttleId = "feeder_ship";
 	possible_destinations = "feeder_home;whiteship_home;feeder_custom"
 	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/feeder_shuttle)
 "Y" = (
@@ -143,8 +170,8 @@
 /turf/open/floor/plating,
 /area/shuttle/feeder_shuttle)
 "Z" = (
-/obj/machinery/door/window/survival_pod{
-	dir = 1
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/feeder_shuttle)
@@ -188,17 +215,17 @@ j
 (5,1,1) = {"
 j
 p
-Z
 l
-F
+l
+l
 y
 j
 "}
 (6,1,1) = {"
 j
 D
-r
-l
+F
+Z
 r
 k
 j
@@ -206,9 +233,9 @@ j
 (7,1,1) = {"
 Q
 z
-j
+I
 J
-j
+I
 z
 Q
 "}
