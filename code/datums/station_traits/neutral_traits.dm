@@ -162,10 +162,10 @@
 
 /datum/station_trait/randomizing_station_name/fast
 	name = "Randomizing station name - Fast"
-	trigger_every = 15 MINUTES
+	trigger_every = 1 HOURS //GS13 - change every 15 minutes is a little too fast
 	blacklist = list(/datum/station_trait/randomizing_station_name, /datum/station_trait/randomizing_station_name/slow)
 
 /datum/station_trait/randomizing_station_name/slow
 	name = "Randomizing station name - Slow"
-	trigger_every = 1 HOURS
+	trigger_every = 2 HOURS //GS13 - rounds are long, let's make it REALLY slow
 	blacklist = list(/datum/station_trait/randomizing_station_name/fast, /datum/station_trait/randomizing_station_name)
